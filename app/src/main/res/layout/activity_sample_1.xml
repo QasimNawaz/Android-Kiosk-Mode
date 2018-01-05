@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alisons.cosu.SampleActivity_1">
+
+    <Button
+        android:id="@+id/openLibraryCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Library" />
+
+    <Button
+        android:id="@+id/openDirectCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openLibraryCamera"
+        android:layout_centerHorizontal="true"
+        android:text="Direct" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/activateAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openDirectCamera"
+        android:layout_centerHorizontal="true"
+        android:text="Activate" />
+    <Button
+        android:visibility="gone"
+        android:id="@+id/deActivateAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activateAdmin"
+        android:layout_centerHorizontal="true"
+        android:text="DeActivate" />
+</RelativeLayout>
